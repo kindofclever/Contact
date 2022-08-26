@@ -116,26 +116,6 @@ body {
     .header__subtitle {
         font-size: 1rem;
     }
-
-    .cards {
-
-    }
-
-    .card {
-
-    }
-
-    .card__img {
-   
-    }
-
-    .card__name {
-
-    }
-
-    .card__link {
-
-    }
 }
 
 @media screen and (min-width: 450px){ 
@@ -154,27 +134,6 @@ body {
     .header__subtitle {
         font-size: 1.4rem;
     }
-
-    .cards {
-
-    }
-
-    .card {
-
-    }
-
-    .card__img {
-    
-    }
-
-    .card__name {
-  
-
-    }
-
-    .card__link {
-
-    }
 }
 
 @media screen and (min-width: 650px){ 
@@ -190,28 +149,8 @@ body {
         font-size: 1.6rem;
     }
 
-    .header__subtitle {
-
-    }
-
-    .cards {
-
-    }
-
-    .card {
-
-    }
-
-    .card__img {
-      
-    }
-
     .card__name {
         font-size: 0.8rem;
-    }
-
-    .card__link {
-
     }
 }
 
@@ -229,7 +168,7 @@ body {
     }
 
     .header__subtitle {
-
+        font-size: 1.6rem;
     }
 
     .cards {
