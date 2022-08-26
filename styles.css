@@ -14,93 +14,92 @@ body {
     background: radial-gradient(circle, rgba(46,196,182,1) 63%, rgba(203,243,240,1) 100%);
 }
 
-@media screen and (min-width: 255px){ 
-    .header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 10vh;
-        color: white;
-        background-color: black;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        width: 100vw;
-    }
-
-    .header__title {
-        font-size: 1rem;
-    }
-
-    .header__subtitle {
-        font-size: 0.8rem;
-        font-style: italic;
-    }
-
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-        justify-items: stretch;
-        gap: 2%; 
-        margin-top: 4%;
-        padding: 2%;
-    }
-
-    .card {
-        background-color: rgb(255, 159, 28);
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        border-radius: 20px;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 4%;
-    }
-
-    .card:hover {
-        background-color: rgb(252, 147, 0);
-        box-shadow: rgba(50, 50, 93, 0.25) 1px 5px 7px -4px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-        border-radius: 20px;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 4%;
-    }
-
-    .card__img {
-        height: 15rem;
-        margin: 4%;
-    }
-    
-
-    .card__name {
-        margin: 4% 0;
-        font-weight: 700;
-        font-size: 0.8rem;
-
-    }
-
-    .card__link {
-        color: white;
-        margin-bottom: 4%;
-        border: solid 1px white;
-        border-radius: 20px;
-        padding: 3% 6%;
-    }
-
-    .card__link:hover {
-        color: white;
-        margin-bottom: 4%;
-        border: solid 1px white;
-        border-radius: 20px;
-        padding: 3% 6%;
-        background-color: rgb(251, 0, 247);
-    }
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    width: 100vw;
 }
 
-@media screen and (min-width: 350px){ 
+.header__title {
+    font-size: 1rem;
+}
+
+.header__subtitle {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    justify-items: stretch;
+    gap: 2%; 
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.card {
+    background-color: rgb(255, 159, 28);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
+.card:hover {
+    background-color: rgb(252, 147, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 1px 5px 7px -4px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
+.card__img {
+    height: 15rem;
+    margin: 4%;
+}
+
+
+.card__name {
+    margin: 4% 0;
+    font-weight: 700;
+    font-size: 0.8rem;
+
+}
+
+.card__link {
+    color: white;
+    margin-bottom: 4%;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 3% 6%;
+}
+
+.card__link:hover {
+    color: white;
+    margin-bottom: 4%;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 3% 6%;
+    background-color: rgb(251, 0, 247);
+}
+
+
+@media screen and (min-width: 340px){ 
     .header {
         display: flex;
         flex-direction: column;
@@ -171,25 +170,8 @@ body {
         font-size: 1.6rem;
     }
 
-    .cards {
-
-    }
-
-    .card {
-
-    }
-
-    .card__img {
-       
-    }
-
     .card__name {
         font-size: 1rem;
-
-    }
-
-    .card__link {
-
     }
 }
 
@@ -210,24 +192,8 @@ body {
         font-size: 2.2rem;
     }
 
-    .cards {
-
-    }
-
-    .card {
-
-    }
-
-    .card__img {
-    
-    }
-
     .card__name {
         font-size: 1.2rem;
-    }
-
-    .card__link {
-
     }
 }
 
@@ -248,23 +214,7 @@ body {
         font-size: 2.5rem;
     }
 
-    .cards {
-
-    }
-
-    .card {
-
-    }
-
-    .card__img {
-     
-    }
-
     .card__name {
         font-size: 1.2rem;
-    }
-
-    .card__link {
-
     }
 }
